@@ -1,0 +1,16 @@
+{
+  "name": "Gravity Forms Kajabi",
+  "slug": "mtt-gravity-forms-kajabi",
+  "version": "1.0.2",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-gravity-forms-kajabi-v1.0.2/mtt-gravity-forms-kajabi.zip",
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-09-17T20:39:45.000Z",
+  "sections": {
+    "description": "Sends a configured Gravity Forms newsletter submission to a Kajabi form through the supported public API.",
+    "changelog": "= 1.0.2 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n\n= 1.0.1 =\n* Clarifies that Kajabi Public API client credentials are required and distinguishes them from Account Details credentials used by Zapier.\n* Documents setup, credential-storage fallbacks, removal behavior, and isolated developer validation.\n\n= 1.0.0 =\n* Adds configurable Gravity Forms and Kajabi form mapping.\n* Uses Kajabi's supported form-submission endpoint so provider opt-in behavior and automations remain intact.\n* Protects saved credentials and masks them in the settings screen.\n* Prevents duplicate sends and retries temporary API failures without logging contact data."
+  },
+  "sha256": "de00eae74379df5b92a5aeda55c62ca778dd147ac5b8cd4cfaf8e852b47df7c1"
+}
