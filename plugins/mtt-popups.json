@@ -1,16 +1,20 @@
 {
   "name": "Popups",
   "slug": "mtt-popups",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-popups-v2.0.1/mtt-popups.zip",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-popups-v2.0.2/mtt-popups.zip",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
   "requires": "6.9",
   "tested": "6.9.7",
   "requires_php": "8.1",
-  "last_updated": "2026-09-17T20:39:45.000Z",
+  "last_updated": "2026-09-17T21:00:48.000Z",
   "sections": {
     "description": "Theme-independent block-based popups with targeting, accessible dialogs, and manual triggers.",
-    "changelog": "= 2.0.1 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n= 2.0.0 =\n* Extract the reusable engine from the Butternut installation into the shared plugin repository.\n* Remove client artwork, newsletter styles, theme palette dependencies, and theme-specific content/navigation hooks.\n* Add neutral configurable dialog styling, per-post metadata authorization, and standard update integration.\n* Isolate dialogs from theme wrappers and preserve focus/background state when reopening.\n\n== Upgrade Notice ==\n= 2.0.0 =\nBreaking presentation change: migrate existing client newsletter styles and assets into the client theme before upgrading a branded installation. Saved popup posts and metadata are retained."
+    "changelog": "= 2.0.2 =\n* Display the official Made to Thrive circle badge in WordPress plugin updates.\n\n= 2.0.1 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n= 2.0.0 =\n* Extract the reusable engine from the Butternut installation into the shared plugin repository.\n* Remove client artwork, newsletter styles, theme palette dependencies, and theme-specific content/navigation hooks.\n* Add neutral configurable dialog styling, per-post metadata authorization, and standard update integration.\n* Isolate dialogs from theme wrappers and preserve focus/background state when reopening.\n\n== Upgrade Notice ==\n= 2.0.0 =\nBreaking presentation change: migrate existing client newsletter styles and assets into the client theme before upgrading a branded installation. Saved popup posts and metadata are retained."
   },
-  "sha256": "d3d783d4d9ed15f703a0b93752764f55c903700632d524e483ac1bf3c4d102f3"
+  "sha256": "d231038ee83ca68f3d73b22e2218dedb73fea1fac1a9a941dc2664186b876fbd"
 }
