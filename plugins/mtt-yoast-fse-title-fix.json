@@ -1,16 +1,16 @@
 {
-  "name": "MTT Yoast FSE Title Tag Fix",
+  "name": "Yoast FSE Title Tag Fix",
   "slug": "mtt-yoast-fse-title-fix",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-yoast-fse-title-fix-v1.3.0/mtt-yoast-fse-title-fix.zip",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-yoast-fse-title-fix-v1.3.1/mtt-yoast-fse-title-fix.zip",
   "requires": "6.9",
   "tested": "7.1",
   "requires_php": "8.1",
-  "last_updated": "2026-09-04T19:03:17.091Z",
+  "last_updated": "2026-09-17T20:39:45.000Z",
   "sections": {
     "description": "Prevents duplicate document title tags when Yoast SEO is used with a WordPress block theme.",
-    "changelog": "= 1.3.0 =\n* Adds the Made to Thrive versioned update channel.\n* Keeps automatic updates disabled unless the agency explicitly opts in.\n* Raises the minimum PHP version to 8.1 for the new maintained release line.\n\n= 1.2.0 =\n* Removes the core title before its hook priority begins.\n* Restores the core title when Yoast does not produce a non-empty title.\n\n= 1.1.0 =\n* Only removes the WordPress title after confirming Yoast's title presenter ran.\n* Preserves the WordPress title on block themes where Yoast does not output one.\n\n= 1.0.0 =\n* Initial release."
+    "changelog": "= 1.3.1 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n\n= 1.3.0 =\n* Adds the Made to Thrive versioned update channel.\n* Keeps automatic updates disabled unless the agency explicitly opts in.\n* Raises the minimum PHP version to 8.1 for the new maintained release line.\n\n= 1.2.0 =\n* Removes the core title before its hook priority begins.\n* Restores the core title when Yoast does not produce a non-empty title.\n\n= 1.1.0 =\n* Only removes the WordPress title after confirming Yoast's title presenter ran.\n* Preserves the WordPress title on block themes where Yoast does not output one.\n\n= 1.0.0 =\n* Initial release."
   },
-  "sha256": "4220dca87402a7f6552c38ba345c7777a430352b45984c3ab3e5393e212bff20"
+  "sha256": "fc9051a2dc302254dad898a3ea299603019b334837cd1fbc598da1021cede9da"
 }
