@@ -1,16 +1,16 @@
 {
-  "name": "MTT Popups",
+  "name": "Popups",
   "slug": "mtt-popups",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-popups-v2.0.0/mtt-popups.zip",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-popups-v2.0.1/mtt-popups.zip",
   "requires": "6.9",
   "tested": "6.9.7",
   "requires_php": "8.1",
-  "last_updated": "2026-09-12T00:24:21.000Z",
+  "last_updated": "2026-09-17T20:39:45.000Z",
   "sections": {
     "description": "Theme-independent block-based popups with targeting, accessible dialogs, and manual triggers.",
-    "changelog": "= 2.0.0 =\n* Extract the reusable engine from the Butternut installation into the shared plugin repository.\n* Remove client artwork, newsletter styles, theme palette dependencies, and theme-specific content/navigation hooks.\n* Add neutral configurable dialog styling, per-post metadata authorization, and standard update integration.\n* Isolate dialogs from theme wrappers and preserve focus/background state when reopening.\n\n== Upgrade Notice ==\n= 2.0.0 =\nBreaking presentation change: migrate existing client newsletter styles and assets into the client theme before upgrading a branded installation. Saved popup posts and metadata are retained."
+    "changelog": "= 2.0.1 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n= 2.0.0 =\n* Extract the reusable engine from the Butternut installation into the shared plugin repository.\n* Remove client artwork, newsletter styles, theme palette dependencies, and theme-specific content/navigation hooks.\n* Add neutral configurable dialog styling, per-post metadata authorization, and standard update integration.\n* Isolate dialogs from theme wrappers and preserve focus/background state when reopening.\n\n== Upgrade Notice ==\n= 2.0.0 =\nBreaking presentation change: migrate existing client newsletter styles and assets into the client theme before upgrading a branded installation. Saved popup posts and metadata are retained."
   },
-  "sha256": "2d950dfd9d106606256795f3829db742c4e01aff821c529df2ef6e07737469b0"
+  "sha256": "d3d783d4d9ed15f703a0b93752764f55c903700632d524e483ac1bf3c4d102f3"
 }
