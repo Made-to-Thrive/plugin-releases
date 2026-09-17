@@ -1,0 +1,16 @@
+{
+  "name": "Save to Email",
+  "slug": "mtt-save-to-email",
+  "version": "1.3.0",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-save-to-email-v1.3.0/mtt-save-to-email.zip",
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-09-17T20:37:21.000Z",
+  "sections": {
+    "description": "Theme-independent WPForms recipe link delivery with optional consent-based Kit or Flodesk signup.",
+    "changelog": "= 1.3.0 =\n* Add optional Kit and Flodesk integrations, provider selection, safe connection checks and preserved Flodesk upgrade settings.\n\n\n= 1.2.4 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n= 1.2.3 =\n* Replace the pixel field with Small, Medium and Large logo presets; default to Medium.\n\n= 1.2.2 =\n* Edit footer text inline in the email preview.\n\n= 1.2.1 =\n* Link the logo, hide duplicate site text, and place the heading before the greeting.\n\n= 1.2.0 =\n* Use native media and color pickers with a responsive branding sidebar and live preview.\n* Hide shared branding controls unless the provider is available.\n\n= 1.1.0 =\n* Add standalone branding and sender controls with optional shared branding.\n\n= 1.0.1 =\n* Show an actionable form error when email delivery fails or is rate limited.\n* Prevent success redirects and newsletter requests after failed delivery.\n* Require the newsletter consent mapping to point to a checkbox field.\n\n= 1.0.0 =\n* Extract reusable recipe delivery from the Bake With Zoha implementation.\n* Add MTT update-channel support and independent settings.\n* Keep other newsletter forms under their existing provider settings.\n* Reject password-protected posts and invalid recipe requests before subscription."
+  },
+  "sha256": "f24276f5c65a6e359a6e8329eab61009ce76ae2b2b3495abe2770e076d507eb5"
+}
