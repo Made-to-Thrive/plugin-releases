@@ -1,0 +1,16 @@
+{
+  "name": "Comment Reply Notifications",
+  "slug": "mtt-comment-reply-notifications",
+  "version": "0.3.1",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-comment-reply-notifications-v0.3.1/mtt-comment-reply-notifications.zip",
+  "requires": "7.0",
+  "tested": "7.0",
+  "requires_php": "8.1",
+  "last_updated": "2026-09-17T20:39:45.000Z",
+  "sections": {
+    "description": "Theme-independent direct comment reply emails with explicit consent, configurable branding, and queued delivery.",
+    "changelog": "= 0.3.1 =\n* Use the plugin name without an MTT prefix; retain Made to Thrive authorship and the handwritten mtt icon.\n\n= 0.3.0 =\n\n* Added the canonical MTT release channel, a dedicated settings page, and a saved branding preview.\n* Preserved existing subscription IDs, consent records, settings, signing keys, and Save to Email branding integration.\n* Hardened malformed settings input and removed legacy standalone release tooling.\n\n= 0.2.0 =\n\n* Added configurable brand name, Media Library logo, colors, footer text, branded email, and matching confirmation/unsubscribe pages.\n* Made anonymous confirmation mandatory and protected consent when a comment address changes.\n* Added stale-event and per-recipient delivery limits, stronger rate limiting, schema verification, and clearer mail failures.\n* Expanded consent evidence, inactive-data retention, privacy export/erase behavior, Site Health diagnostics, and integration tests.\n\n= 0.1.0 =\n\n* Initial private release.\n* Added direct reply opt-in, optional anonymous confirmation, queued delivery, multipart email, signed confirmation/unsubscribe actions, administration, privacy tools, Site Health checks, and WP-CLI queue commands.\n\n== Upgrade Notice ==\n\n= 0.2.0 =\n\nReview the new reply-notification branding settings and privacy-policy suggestion. Anonymous commenters now always confirm their address before notifications become active."
+  },
+  "sha256": "f8671f9c82874eec1ae0fd05a8dae122750ed9e35c9e062e9b3ba75aeda9d12a"
+}
