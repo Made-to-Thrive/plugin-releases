@@ -1,0 +1,20 @@
+{
+  "name": "Tutorials",
+  "slug": "mtt-tutorials",
+  "version": "1.0.0",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-tutorials-v1.0.0/mtt-tutorials.zip",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "6.9",
+  "requires_php": "8.1",
+  "last_updated": "2026-09-18T23:25:32.000Z",
+  "sections": {
+    "description": "Scribe tutorials in the WordPress dashboard with per-site settings.",
+    "changelog": "= 1.0.0 =\n* Initial reusable Scribe tutorials page, dashboard shortcut, per-site settings, and MTT update integration."
+  },
+  "sha256": "fc02373fe15c9512bfaf40575174a34165e19e6a78772541734f11c8238a26fc"
+}
