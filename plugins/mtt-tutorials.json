@@ -1,9 +1,9 @@
 {
   "name": "Tutorials",
   "slug": "mtt-tutorials",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-tutorials-v1.0.1/mtt-tutorials.zip",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-tutorials-v1.0.3/mtt-tutorials.zip",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -11,10 +11,10 @@
   "requires": "6.9",
   "tested": "6.9",
   "requires_php": "8.1",
-  "last_updated": "2026-09-18T23:29:22.000Z",
+  "last_updated": "2026-09-21T23:42:21.000Z",
   "sections": {
     "description": "Scribe tutorials in the WordPress dashboard with per-site settings.",
-    "changelog": "= 1.0.1 =\n* Accept organization-prefixed Scribe share links.\n\n= 1.0.0 =\n* Initial reusable Scribe tutorials page, dashboard shortcut, per-site settings, and MTT update integration."
+    "changelog": "= 1.0.3 =\n* Match Scribe embed sizing and default loading behavior while retaining an accessible frame title.\n\n= 1.0.2 =\n* Keep tutorial settings in the admin submenu and remove the duplicate link above the embed.\n\n= 1.0.1 =\n* Accept organization-prefixed Scribe share links.\n\n= 1.0.0 =\n* Initial reusable Scribe tutorials page, dashboard shortcut, per-site settings, and MTT update integration."
   },
-  "sha256": "9e3bf1241968fc6ffe0aa4fd16518a7dadcd6c07ba977896998d93ea12fbeb46"
+  "sha256": "bae9b9dccfba9d70781376b18932951177b2c25efb9fcf6611cb1e1bf855ef6c"
 }
