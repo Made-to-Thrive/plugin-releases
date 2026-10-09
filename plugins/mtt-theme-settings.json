@@ -1,0 +1,20 @@
+{
+  "name": "Theme Settings",
+  "slug": "mtt-theme-settings",
+  "version": "0.1.1",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-theme-settings-v0.1.1/mtt-theme-settings.zip",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "6.9",
+  "requires_php": "8.1",
+  "last_updated": "2026-10-09T20:09:07.000Z",
+  "sections": {
+    "description": "Developer-defined site-wide fields with a native settings page, template helpers, and core Block Bindings.",
+    "changelog": "= 0.1.1 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 0.1.0 =\n* Add developer-defined global fields with native settings controls, image selection, and safe validation.\n* Include developer documentation, PHP helpers, text shortcodes, and read-only core Block Bindings.\n* Preserve site values across theme changes and plugin updates without adding frontend assets."
+  },
+  "sha256": "aeafb0d5536cf696d201d3b0371aadd0d9e7f09a181b473d083c797e053fbbe5"
+}
