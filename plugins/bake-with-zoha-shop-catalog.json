@@ -1,0 +1,20 @@
+{
+  "name": "Bake With Zoha Shop Catalog",
+  "slug": "bake-with-zoha-shop-catalog",
+  "version": "0.3.11",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/bake-with-zoha-shop-catalog-v0.3.11/bake-with-zoha-shop-catalog.zip",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.8",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-10-09T20:09:07.000Z",
+  "sections": {
+    "description": "Affiliate catalog data and Amazon Creators API synchronization.",
+    "changelog": "= 0.3.11 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 0.3.10 =\n* Use the same simple affiliate-link instruction for new and saved Amazon items.\n\n= 0.3.9 =\n* Simplify product editor help and remove outdated save-first image instructions.\n* Keep reference details under Advanced and hide saved status while editing.\n\n= 0.3.8 =\n* Keep the pasted affiliate URL as the product card destination instead of substituting the API URL.\n\n* Preview Amazon product images when pasting full or short links without changing saved product content.\n* Refresh Amazon details during explicit saves so new items do not depend on cron or a manual refresh.\n\n= 0.3.7 =\n* Follow the amzlinks.in redirect used by link.amazon so product image lookup works from staging servers.\n\n= 0.3.6 =\n* Recognize link.amazon product links and resolve their product identity for automatic Amazon image sync while preserving the original affiliate URL.\n\n= 0.3.5 =\n* Show missing credentials and authentication failures clearly on shop admin screens without exposing secrets.\n* Preserve destination product content and existing automatic refresh behavior."
+  },
+  "sha256": "a11d750c402cafc4c53db7d8adbd0e266d0cfa0d9fc3942c29f82a3cc6fbce28"
+}
