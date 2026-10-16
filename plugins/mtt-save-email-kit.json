@@ -1,0 +1,20 @@
+{
+  "name": "Save to Email — Kit",
+  "slug": "mtt-save-email-kit",
+  "version": "0.1.0",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-save-email-kit-v0.1.0/mtt-save-email-kit.zip",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-10-16T16:56:43.000Z",
+  "sections": {
+    "description": "Optional Kit integration for both Save to Email plugins.",
+    "changelog": "= 0.1.0 =\n* Add optional Kit newsletter signup for both Save to Email plugins.\n* Keep account setup and destination choices independent for each delivery plugin."
+  },
+  "sha256": "1b48cc38733e0afbd0b322a227d8cd50380c8bf65263d2304062a68e1c5040b0"
+}
