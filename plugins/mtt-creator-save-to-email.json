@@ -1,0 +1,20 @@
+{
+  "name": "Save to Email",
+  "slug": "mtt-creator-save-to-email",
+  "version": "0.2.3",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-creator-save-to-email-v0.2.3/mtt-creator-save-to-email.zip",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-10-16T17:01:41.000Z",
+  "sections": {
+    "description": "Save posts and selected shop items by email, with optional consent-based newsletter signup.",
+    "changelog": "= 0.2.3 =\n* Offer Email my picks and Shop selected items with clear, editable action labels.\n* Open one shared email popup with a live selected-item count and separate optional newsletter consent.\n* Keep selections independent between checklists and provide individual links when a browser blocks shopping tabs.\n\n= 0.2.2 =\n* Organize settings into tabs with one Save changes action and preserve drafts between views.\n* Preview post and shop emails in the delivery layout, with inline editing and desktop/mobile widths.\n* Customize shop greetings, shopping links, post buttons and fallback text independently.\n* Use Save to Email throughout the dashboard and block editor.\n\n= 0.2.1 =\n* Use “Save to Email” for all visible plugin, editor and settings labels.\n\n= 0.2.0 =\n* Move newsletter providers into optional shared Kit, Flodesk and Attentive add-ons.\n* Show the selected provider and inactive add-on status while preserving saved account settings.\n* Require the matching add-on for newsletter signup; saved email delivery continues independently.\n\n= 0.1.0 =\n* Save posts or selected shop items to email with images, titles and shopping links.\n* Include optional newsletter signup, editable email branding and an accessible post-save popup.\n* Keep creator settings, integrations and updates separate from the recipe Save to Email plugin."
+  },
+  "sha256": "c930341301170387a139edc334635a2532449894e2ec105485351b96339776c9"
+}
