@@ -1,0 +1,22 @@
+{
+  "name": "Licensing Manager",
+  "slug": "mtt-licensing-manager",
+  "version": "0.4.0",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-licensing-manager-v0.4.0/mtt-licensing-manager.zip",
+  "update_delivery": "public",
+  "source_commit": "341d5d1ba9fe42e5f1cd8ca8dcf20d3bba120697",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-11-04T23:01:52.000Z",
+  "sections": {
+    "description": "Manage support plans, website permissions and private plugin updates.",
+    "changelog": "= 0.4.0 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Add a searchable site overview and separate production and staging reports.\n* Review update outcomes and limit new releases to selected pilot websites, with promotion and pause controls.\n\n= 0.3.0 =\n* Support automatic private release publication from reviewed GitHub releases, with checksum verification and safe retries.\n\n= 0.2.0 =\n* Add verified pending website approvals and installed plugin reports.\n* Clarify when an update ZIP has not been uploaded.\n\n= 0.1.1 =\n* Explain connecting bundled MTT plugins with one shared website key, without a separate connector.\n\n= 0.1.0 =\n* Add manual website registration, support plans and individual plugin permissions.\n* Add private releases, scoped website keys and authenticated WordPress update delivery."
+  },
+  "sha256": "3336bd541ff844acd5a7f5eab81d3fb886124bafbc20688d1a7984ef310b5122"
+}
