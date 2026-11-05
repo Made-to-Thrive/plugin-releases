@@ -1,9 +1,10 @@
 {
   "name": "Social Recipe Importer",
   "slug": "mtt-social-recipe-importer",
-  "version": "0.2.1",
+  "version": "0.4.2",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-social-recipe-importer-v0.2.1/mtt-social-recipe-importer.zip",
+  "update_delivery": "transition",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -11,10 +12,13 @@
   "requires": "6.9",
   "tested": "7.1",
   "requires_php": "8.1",
-  "last_updated": "2026-10-09T20:09:07.000Z",
+  "last_updated": "2026-11-05T00:27:09.000Z",
   "sections": {
     "description": "Import TikTok and Instagram recipe posts into WP Recipe Maker, with a human review step before anything is created.",
-    "changelog": "= 0.2.1 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 0.2.0 =\n* Connect your own Instagram professional account to read full captions, cover images and usernames for your posts directly from Instagram, at no cost.\n* Connect with Instagram login or a token pasted from the Meta app dashboard; access renews automatically each week.\n* Instagram imports from the connected account no longer spend Supadata metadata credits.\n\n= 0.1.0 =\n* Initial release: TikTok and Instagram import into WP Recipe Maker with a review screen, a transcript chain, rules or AI extraction, draft post creation and an import log."
+    "changelog": "= 0.4.2 =\n* Receive the licensing connection through the existing GitHub updater. Connect once under Settings → MTT updates for future official updates; installed features keep working.\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.4.1 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.4.0 =\n* Share one website key across MTT plugins with encrypted storage and manual site approval.\n* Protect official update delivery while keeping installed features working.\n\n= 0.2.1 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 0.2.0 =\n* Connect your own Instagram professional account to read full captions, cover images and usernames for your posts directly from Instagram, at no cost.\n* Connect with Instagram login or a token pasted from the Meta app dashboard; access renews automatically each week.\n* Instagram imports from the connected account no longer spend Supadata metadata credits.\n\n= 0.1.0 =\n* Initial release: TikTok and Instagram import into WP Recipe Maker with a review screen, a transcript chain, rules or AI extraction, draft post creation and an import log."
   },
-  "sha256": "8d70da2f0497adcf48a4a02e1c2e5f104aaf78ad782a633573fc3a6e83d028c5"
+  "sha256": "0243740f3dd6cf8562bcf4ba0fb8f593b1bcb5b8e0126a1512b7ac4c55a29998",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-social-recipe-importer-v0.4.2/mtt-social-recipe-importer.zip",
+  "future_update_delivery": "private",
+  "licensing_transition": "licensing-2026-11-04"
 }

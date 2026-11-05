@@ -1,0 +1,24 @@
+{
+  "name": "Admin Bar",
+  "slug": "mtt-admin-bar-toggle",
+  "version": "0.3.2",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "update_delivery": "transition",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-11-05T00:27:09.000Z",
+  "sections": {
+    "description": "Per-user frontend toolbar visibility for administrators.",
+    "changelog": "= 0.3.2 =\n* Receive the licensing connection through the existing GitHub updater. Connect once under Settings → MTT updates for future official updates; installed features keep working.\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.3.1 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.3.0 =\n* Share one website key across MTT plugins with encrypted storage and manual site approval.\n* Protect official update delivery while keeping installed features working.\n\n= 0.1.1 =\n* Use simple Hide Admin Bar and Show Admin Bar controls, including a mobile account-menu fallback.\n* Replace the old MTT Testing Tools widget while preserving existing per-user preferences.\n\n= 0.1.0 =\n* Add administrator-only, per-user frontend toolbar controls with a recovery link and nonce-protected preference updates."
+  },
+  "sha256": "1918b27f881a171e9d55de9a03e1bc6f3e632fbd9525a4385f6eaba0c4d632c2",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-admin-bar-toggle-v0.3.2/mtt-admin-bar-toggle.zip",
+  "future_update_delivery": "private",
+  "licensing_transition": "licensing-2026-11-04"
+}

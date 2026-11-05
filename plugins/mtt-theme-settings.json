@@ -1,9 +1,10 @@
 {
   "name": "Theme Settings",
   "slug": "mtt-theme-settings",
-  "version": "0.1.1",
+  "version": "0.3.2",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-theme-settings-v0.1.1/mtt-theme-settings.zip",
+  "update_delivery": "transition",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -11,10 +12,13 @@
   "requires": "6.9",
   "tested": "6.9",
   "requires_php": "8.1",
-  "last_updated": "2026-10-09T20:09:07.000Z",
+  "last_updated": "2026-11-05T00:27:09.000Z",
   "sections": {
     "description": "Developer-defined site-wide fields with a native settings page, template helpers, and core Block Bindings.",
-    "changelog": "= 0.1.1 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 0.1.0 =\n* Add developer-defined global fields with native settings controls, image selection, and safe validation.\n* Include developer documentation, PHP helpers, text shortcodes, and read-only core Block Bindings.\n* Preserve site values across theme changes and plugin updates without adding frontend assets."
+    "changelog": "= 0.3.2 =\n* Receive the licensing connection through the existing GitHub updater. Connect once under Settings → MTT updates for future official updates; installed features keep working.\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.3.1 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.3.0 =\n* Share one website key across MTT plugins with encrypted storage and manual site approval.\n* Protect official update delivery while keeping installed features working.\n\n= 0.1.1 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 0.1.0 =\n* Add developer-defined global fields with native settings controls, image selection, and safe validation.\n* Include developer documentation, PHP helpers, text shortcodes, and read-only core Block Bindings.\n* Preserve site values across theme changes and plugin updates without adding frontend assets."
   },
-  "sha256": "aeafb0d5536cf696d201d3b0371aadd0d9e7f09a181b473d083c797e053fbbe5"
+  "sha256": "9a108b372981c97bfde5742cbc32b5efd8e73db58e5cdb6af8ea67436f14f80c",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-theme-settings-v0.3.2/mtt-theme-settings.zip",
+  "future_update_delivery": "private",
+  "licensing_transition": "licensing-2026-11-04"
 }

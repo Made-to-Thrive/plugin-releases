@@ -1,0 +1,24 @@
+{
+  "name": "Loom Tutorials",
+  "slug": "mtt-loom-tutorials",
+  "version": "1.3.2",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "update_delivery": "transition",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-11-05T00:27:09.000Z",
+  "sections": {
+    "description": "An editable Loom video library with embedded playback and a dashboard shortcut.",
+    "changelog": "= 1.3.2 =\n* Receive the licensing connection through the existing GitHub updater. Connect once under Settings → MTT updates for future official updates; installed features keep working.\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 1.3.1 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 1.3.0 =\n* Share one website key across MTT plugins with encrypted storage and manual site approval.\n* Protect official update delivery while keeping installed features working.\n\n= 1.1.4 =\n* Keep tutorial management links only in the admin sidebar.\n* Simplify the dashboard widget by removing its introductory sentence.\n\n= 1.1.3 =\n* Refresh the dashboard widget with the original MTT wordmark, ink-and-ivory colors, clearer tutorial links, and a management shortcut.\n\n= 1.1.2 =\n* Use Tutorials as the WordPress dashboard menu label.\n\n= 1.1.1 =\n* Allow documents and any HTTP or HTTPS link alongside Loom videos.\n* Show external resources with a document card and clear new-tab labels.\n\n= 1.1.0 =\n* Add a video library with thumbnails, durations, and embedded playback.\n* Add editable video rows, keyboard ordering, removal, and bulk additions with one save action.\n* Preserve existing tutorial links and introduce the shared MTT settings design.\n\n= 1.0.0 =\n* Restore the original Loom link list and dashboard widget as a standalone plugin."
+  },
+  "sha256": "b277774e2eda7fb21bbf2035147bf6560e92af2bcede7547cfd595338becf95b",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-loom-tutorials-v1.3.2/mtt-loom-tutorials.zip",
+  "future_update_delivery": "private",
+  "licensing_transition": "licensing-2026-11-04"
+}

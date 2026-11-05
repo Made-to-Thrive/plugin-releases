@@ -1,9 +1,10 @@
 {
   "name": "Tutorials",
   "slug": "mtt-tutorials",
-  "version": "1.0.4",
+  "version": "1.2.2",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-tutorials-v1.0.4/mtt-tutorials.zip",
+  "update_delivery": "transition",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -11,10 +12,13 @@
   "requires": "6.9",
   "tested": "6.9",
   "requires_php": "8.1",
-  "last_updated": "2026-10-09T20:09:07.000Z",
+  "last_updated": "2026-11-05T00:27:09.000Z",
   "sections": {
     "description": "Scribe tutorials in the WordPress dashboard with per-site settings.",
-    "changelog": "= 1.0.4 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 1.0.3 =\n* Match Scribe embed sizing and default loading behavior while retaining an accessible frame title.\n\n= 1.0.2 =\n* Keep tutorial settings in the admin submenu and remove the duplicate link above the embed.\n\n= 1.0.1 =\n* Accept organization-prefixed Scribe share links.\n\n= 1.0.0 =\n* Initial reusable Scribe tutorials page, dashboard shortcut, per-site settings, and MTT update integration."
+    "changelog": "= 1.2.2 =\n* Receive the licensing connection through the existing GitHub updater. Connect once under Settings → MTT updates for future official updates; installed features keep working.\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 1.2.1 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 1.2.0 =\n* Share one website key across MTT plugins with encrypted storage and manual site approval.\n* Protect official update delivery while keeping installed features working.\n\n= 1.0.4 =\n* Add the shared MTT brand mark to the settings heading with local assets and reserved dimensions.\n\n= 1.0.3 =\n* Match Scribe embed sizing and default loading behavior while retaining an accessible frame title.\n\n= 1.0.2 =\n* Keep tutorial settings in the admin submenu and remove the duplicate link above the embed.\n\n= 1.0.1 =\n* Accept organization-prefixed Scribe share links.\n\n= 1.0.0 =\n* Initial reusable Scribe tutorials page, dashboard shortcut, per-site settings, and MTT update integration."
   },
-  "sha256": "f6028d6f24cb52699b15b46b1f1bb6d47d97351c35f1c7439a45f97e9722dbc2"
+  "sha256": "1f9390f91b537b8fff5f3ad6af03eb29d98c69cd6838c614f210d10e34e2d404",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-tutorials-v1.2.2/mtt-tutorials.zip",
+  "future_update_delivery": "private",
+  "licensing_transition": "licensing-2026-11-04"
 }

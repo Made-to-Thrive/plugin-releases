@@ -1,9 +1,10 @@
 {
   "name": "Save to Email — Kit",
   "slug": "mtt-save-email-kit",
-  "version": "0.1.0",
+  "version": "0.3.2",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-save-email-kit-v0.1.0/mtt-save-email-kit.zip",
+  "update_delivery": "transition",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -11,10 +12,13 @@
   "requires": "6.9",
   "tested": "7.1",
   "requires_php": "8.1",
-  "last_updated": "2026-10-16T16:56:43.000Z",
+  "last_updated": "2026-11-05T00:27:09.000Z",
   "sections": {
     "description": "Optional Kit integration for both Save to Email plugins.",
-    "changelog": "= 0.1.0 =\n* Add optional Kit newsletter signup for both Save to Email plugins.\n* Keep account setup and destination choices independent for each delivery plugin."
+    "changelog": "= 0.3.2 =\n* Receive the licensing connection through the existing GitHub updater. Connect once under Settings → MTT updates for future official updates; installed features keep working.\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.3.1 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.3.0 =\n* Share one website key across MTT plugins with encrypted storage and manual site approval.\n* Protect official update delivery while keeping installed features working.\n\n= 0.1.0 =\n* Add optional Kit newsletter signup for both Save to Email plugins.\n* Keep account setup and destination choices independent for each delivery plugin."
   },
-  "sha256": "1b48cc38733e0afbd0b322a227d8cd50380c8bf65263d2304062a68e1c5040b0"
+  "sha256": "57a9346ac37b9292885b6ed40a097bdd7dea6411eba6ca6d30d8a2b9a58503ca",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-save-email-kit-v0.3.2/mtt-save-email-kit.zip",
+  "future_update_delivery": "private",
+  "licensing_transition": "licensing-2026-11-04"
 }
