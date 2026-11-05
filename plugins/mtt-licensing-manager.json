@@ -1,11 +1,11 @@
 {
   "name": "Licensing Manager",
   "slug": "mtt-licensing-manager",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-licensing-manager-v0.4.1/mtt-licensing-manager.zip",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-licensing-manager-v0.4.2/mtt-licensing-manager.zip",
   "update_delivery": "public",
-  "source_commit": "ec4fecfc903d5096dd4fd6d6d2776e667953bc74",
+  "source_commit": "fa2d327d83a026f8f6cc2fc99426f044271884f4",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -13,10 +13,10 @@
   "requires": "6.9",
   "tested": "7.1",
   "requires_php": "8.1",
-  "last_updated": "2026-11-05T01:04:45.000Z",
+  "last_updated": "2026-11-05T18:21:57.000Z",
   "sections": {
     "description": "Manage support plans, website permissions and private plugin updates.",
-    "changelog": "= 0.4.1 =\n* Let every active support plan cover updates for installed MTT plugins, without maintaining per-plan plugin lists or installing new plugins.\n* Keep environment reports, exclusions and client-specific assignments separate when authorizing updates and downloads.\n\n= 0.4.0 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Add a searchable site overview and separate production and staging reports.\n* Review update outcomes and limit new releases to selected pilot websites, with promotion and pause controls.\n\n= 0.3.0 =\n* Support automatic private release publication from reviewed GitHub releases, with checksum verification and safe retries.\n\n= 0.2.0 =\n* Add verified pending website approvals and installed plugin reports.\n* Clarify when an update ZIP has not been uploaded.\n\n= 0.1.1 =\n* Explain connecting bundled MTT plugins with one shared website key, without a separate connector.\n\n= 0.1.0 =\n* Add manual website registration, support plans and individual plugin permissions.\n* Add private releases, scoped website keys and authenticated WordPress update delivery."
+    "changelog": "= 0.4.2 =\n* Add short instructions beside website approvals, update access and private release controls.\n* Explain automatic GitHub publishing and how to stop all updates or exclude one plugin.\n\n= 0.4.1 =\n* Let every active support plan cover updates for installed MTT plugins, without maintaining per-plan plugin lists or installing new plugins.\n* Keep environment reports, exclusions and client-specific assignments separate when authorizing updates and downloads.\n\n= 0.4.0 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Add a searchable site overview and separate production and staging reports.\n* Review update outcomes and limit new releases to selected pilot websites, with promotion and pause controls.\n\n= 0.3.0 =\n* Support automatic private release publication from reviewed GitHub releases, with checksum verification and safe retries.\n\n= 0.2.0 =\n* Add verified pending website approvals and installed plugin reports.\n* Clarify when an update ZIP has not been uploaded.\n\n= 0.1.1 =\n* Explain connecting bundled MTT plugins with one shared website key, without a separate connector.\n\n= 0.1.0 =\n* Add manual website registration, support plans and individual plugin permissions.\n* Add private releases, scoped website keys and authenticated WordPress update delivery."
   },
-  "sha256": "9e653acd73c81d148b45c2ae5fddd13174a1173b4b6474f672727168846e3dfb"
+  "sha256": "87e936e43137eb34204356aed2e4d11bc5c9f1b0514fa01f2973d5a0b0933c1b"
 }
