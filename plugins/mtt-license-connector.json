@@ -1,0 +1,22 @@
+{
+  "name": "License Connector",
+  "slug": "mtt-license-connector",
+  "version": "0.4.1",
+  "homepage": "https://github.com/made-to-thrive/plugin-releases",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-license-connector-v0.4.1/mtt-license-connector.zip",
+  "update_delivery": "public",
+  "source_commit": "80bf18447dddf989e8124e3daa9651dc9094fe21",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
+    "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
+  },
+  "requires": "6.9",
+  "tested": "7.1",
+  "requires_php": "8.1",
+  "last_updated": "2026-11-05T00:27:09.000Z",
+  "sections": {
+    "description": "Connect an approved website to protected Made to Thrive plugin updates.",
+    "changelog": "= 0.4.1 =\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.4.0 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.3.0 =\n* Encrypt saved website keys and support administrator-requested site approval.\n\n= 0.2.0 =\n* Share one website key across MTT plugins with bundled licensing; no separate connector is required.\n* Keep installed features working while protecting official update downloads.\n\n= 0.1.0 =\n* Add website connection settings and native private plugin updates.\n* Refresh download authorization and verify packages before installation."
+  },
+  "sha256": "e23b19b5745efcf8aa1a50a7d4f76b8944ab2f5f2bbe35e3cd2fdbf05535924b"
+}
