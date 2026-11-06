@@ -1,11 +1,11 @@
 {
   "name": "License Connector",
   "slug": "mtt-license-connector",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "homepage": "https://github.com/made-to-thrive/plugin-releases",
-  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-license-connector-v0.4.3/mtt-license-connector.zip",
+  "download_url": "https://github.com/made-to-thrive/plugin-releases/releases/download/mtt-license-connector-v0.5.0/mtt-license-connector.zip",
   "update_delivery": "public",
-  "source_commit": "ec4fecfc903d5096dd4fd6d6d2776e667953bc74",
+  "source_commit": "bb88600b3a54c13065f599a30f2e593ccbb233dc",
   "icons": {
     "svg": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg",
     "default": "https://raw.githubusercontent.com/made-to-thrive/plugin-releases/main/assets/mtt-plugin-badge.svg"
@@ -13,10 +13,10 @@
   "requires": "6.9",
   "tested": "7.1",
   "requires_php": "8.1",
-  "last_updated": "2026-11-05T01:04:45.000Z",
+  "last_updated": "2026-11-06T17:03:02.000Z",
   "sections": {
     "description": "Connect an approved website to protected Made to Thrive plugin updates.",
-    "changelog": "= 0.4.3 =\n* Request website approval automatically after activation during administration, then save the approved website key encrypted.\n* Share installed-plugin update access across all approved active support plans.\n\n= 0.4.2 =\n* Refresh stale update notices when a release changes, so retries use the current approved package.\n\n= 0.4.1 =\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.4.0 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.3.0 =\n* Encrypt saved website keys and support administrator-requested site approval.\n\n= 0.2.0 =\n* Share one website key across MTT plugins with bundled licensing; no separate connector is required.\n* Keep installed features working while protecting official update downloads.\n\n= 0.1.0 =\n* Add website connection settings and native private plugin updates.\n* Refresh download authorization and verify packages before installation."
+    "changelog": "= 0.5.0 =\n* Link recognized Local and staging copies automatically using the approved website key; support changes and blocked environments still apply.\n\n= 0.4.3 =\n* Request website approval automatically after activation during administration, then save the approved website key encrypted.\n* Share installed-plugin update access across all approved active support plans.\n\n= 0.4.2 =\n* Refresh stale update notices when a release changes, so retries use the current approved package.\n\n= 0.4.1 =\n* Show a clear connection status, shorter setup help and update access for installed plugins only.\n\n= 0.4.0 =\n* Use the shared MTT admin UI library for consistent controls, layouts and keyboard focus.\n\n* Report protected update outcomes through the shared website connection without sending content or credentials.\n\n= 0.3.0 =\n* Encrypt saved website keys and support administrator-requested site approval.\n\n= 0.2.0 =\n* Share one website key across MTT plugins with bundled licensing; no separate connector is required.\n* Keep installed features working while protecting official update downloads.\n\n= 0.1.0 =\n* Add website connection settings and native private plugin updates.\n* Refresh download authorization and verify packages before installation."
   },
-  "sha256": "ed96aa9310cb2dd6e8eba5bf6fb88ff9beda97b7d90330b6787a1403b4e17be3"
+  "sha256": "a9adfcce322c17d04cbfddb0a7218d908cc6b3ba86eb635629002a22c349fe27"
 }
